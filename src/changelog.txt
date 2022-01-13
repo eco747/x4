@@ -1,0 +1,12 @@
+1.0.1
+		ElementEvent renamed into ComponentEvent
+			variable preventDefault renamed to defaultPrevented
+			preventDefault() is a method now
+
+		ListView event 'contextMenu' renamed to 'contextmenu'
+		ListView event 'selectItem' renamed to 'select'
+
+1.0.0 	Initial public version
+		
+
+		
