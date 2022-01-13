@@ -24,7 +24,7 @@ import { Button } from './button.js'
 import { HLayout, VLayout } from './layout.js'
 import { Label } from './label.js'
 import { PopupCalendar } from './calendar.js'
-import { sprintf, parseIntlDate, formatIntlDate } from "../x4/tools.js";
+import { sprintf, parseIntlDate, formatIntlDate } from "./tools.js";
 import { Tooltip } from './tooltips.js'
 import { EvClick, EvChange, EventCallback } from './x4_events.js';
 
