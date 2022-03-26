@@ -17,8 +17,8 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, CEventMap, html } from './component.js'
-import { BasicEvent, EventCallback } from './x4_events.js'
+import { Component, CProps, CEventMap, html } from './component'
+import { BasicEvent, EventCallback } from './x4_events'
 
 interface EvPaint extends BasicEvent {
 	ctx: CanvasPainter;

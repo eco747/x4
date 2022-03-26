@@ -17,9 +17,9 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps } from './component.js'
-import { HtmlString, isHtmlString } from './tools.js'
-import { Icon, IconID } from './icon.js'
+import { Component, CProps } from './component'
+import { HtmlString, isHtmlString } from './tools'
+import { Icon, IconID } from './icon'
 
 // ============================================================================
 // [LABEL]

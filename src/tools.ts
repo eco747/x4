@@ -17,7 +17,7 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { _tr } from './i18n.js'; 	// you MUST create a file named translation.js
+import { _tr } from './i18n'; 	// you MUST create a file named i18n
 
 // :: ENVIRONMENT ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

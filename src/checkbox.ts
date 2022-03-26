@@ -17,12 +17,12 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { CEventMap, Component, CProps } from './component.js'
-import { EvChange, EventCallback } from './x4_events.js'
-import { HtmlString, isHtmlString } from './tools.js'
+import { CEventMap, Component, CProps } from './component'
+import { EvChange, EventCallback } from './x4_events'
+import { HtmlString, isHtmlString } from './tools'
 
-import { Input } from './input.js'
-import { Label } from './label.js'
+import { Input } from './input'
+import { Label } from './label'
 
 // ============================================================================
 // [CHECKBOX]

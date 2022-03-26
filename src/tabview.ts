@@ -17,11 +17,11 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps } from './component.js'
-import { HLayout } from './layout.js'
-import { Button } from './button.js'
-import { CardView, CardViewProps, ICardViewItem } from './cardview.js'
-import { MenuItem } from './menu.js'
+import { Component, CProps } from './component'
+import { HLayout } from './layout'
+import { Button } from './button'
+import { CardView, CardViewProps, ICardViewItem } from './cardview'
+import { MenuItem } from './menu'
 
 interface TabProps extends CardViewProps
 {

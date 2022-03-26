@@ -17,12 +17,12 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, Container, ContainerEventMap, ContainerProps, EvDblClick, EventHandler, html } from './component.js';
-import { HtmlString, Rect } from './tools.js';
-import { Icon, IconID } from './icon.js';
-import { Label } from './label.js';
-import { HLayout, VLayout } from './layout.js';
-import { EvClick, BasicEvent, EvDrag, EvSelectionChange } from './x4_events.js';
+import { Component, Container, ContainerEventMap, ContainerProps, EvDblClick, EventHandler, html } from './component';
+import { HtmlString, Rect } from './tools';
+import { Icon, IconID } from './icon';
+import { Label } from './label';
+import { HLayout, VLayout } from './layout';
+import { EvClick, BasicEvent, EvDrag, EvSelectionChange } from './x4_events';
 
 export interface EvExpand extends BasicEvent {
 	node: TreeNode;

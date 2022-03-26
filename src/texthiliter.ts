@@ -21,8 +21,8 @@
  * idea came from https://www.cdolivet.com/editarea
  */
 
-import { Component, CProps, CEventMap } from './component.js'
-import { EvChange } from './x4_events.js'
+import { Component, CProps, CEventMap } from './component'
+import { EvChange } from './x4_events'
 
 interface TextHiliterEventMap extends CEventMap {
 	change: EvChange;

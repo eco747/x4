@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import {Component,CProps, flyWrap} from "./component.js"
-import {Label} from "./label.js"
-import { Icon } from "./icon.js"
-import { isTouchDevice } from "./tools.js"
+import {Component,CProps, flyWrap} from "./component"
+import {Label} from "./label"
+import { Icon } from "./icon"
+import { isTouchDevice } from "./tools"
 
 
 let tipTmo;

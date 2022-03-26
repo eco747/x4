@@ -17,8 +17,8 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, CEventMap, EvFocus } from './component.js'
-import { EvChange } from './x4_events.js';
+import { Component, CProps, CEventMap, EvFocus } from './component'
+import { EvChange } from './x4_events';
 
 export type EditType = 'text' | 'number' | 'email' | 'date' | 'password' | 'file' | 'checkbox' | 'radio';
 

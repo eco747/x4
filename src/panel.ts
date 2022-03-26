@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, ComponentContent } from './component.js'
-import { VLayout, HLayout } from './layout.js'
-import { Label } from './label.js'
-import { Icon, IconID } from './icon.js';
+import { Component, CProps, ComponentContent } from './component'
+import { VLayout, HLayout } from './layout'
+import { Label } from './label'
+import { Icon, IconID } from './icon';
 
 // ============================================================================
 // [PANEL]

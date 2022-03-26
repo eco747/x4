@@ -17,9 +17,9 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, CEventMap } from './component.js'
-import { EvChange, EventCallback } from './x4_events.js'
-import { asap } from './tools.js'
+import { Component, CProps, CEventMap } from './component'
+import { EvChange, EventCallback } from './x4_events'
+import { asap } from './tools'
 
 interface TextAreaEventMap extends CEventMap {
 	change: EvChange;

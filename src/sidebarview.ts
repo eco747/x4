@@ -17,11 +17,11 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, Flex } from './component.js'
-import { HLayout, VLayout } from './layout.js'
-import { IconID } from './icon.js'
-import { Button } from './button.js'
-import { CardView, CardViewProps, ICardViewItem } from './cardview.js'
+import { Component, CProps, Flex } from './component'
+import { HLayout, VLayout } from './layout'
+//import { IconID } from './icon'
+import { Button } from './button'
+import { CardView, CardViewProps, ICardViewItem } from './cardview'
 
 export interface SideBarItem extends ICardViewItem {
 }

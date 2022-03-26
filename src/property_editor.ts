@@ -17,21 +17,21 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { CEventMap, Component, CProps } from './component.js'
-import { EvChange, EventCallback } from './x4_events.js'
+import { CEventMap, Component, CProps } from './component'
+import { EvChange, EventCallback } from './x4_events'
 
-import { InputProps, Input } from './input.js'
-import { Button } from './button.js'
-import { TextEdit } from './textedit.js'
-import { CheckBox } from './checkbox.js'
-import { Dialog } from './dialog.js'
-import { VLayout } from './layout.js'
-import { Spreadsheet } from './spreadsheet.js'
-import { FormButtons, FormBtn } from './form.js'
-import { ComboBox, ComboBoxProps } from './combobox.js'
-import { DataStore, DataView, Record } from './datastore.js'
-import { isArray } from './tools.js'
-import { _tr } from './i18n.js'
+import { InputProps, Input } from './input'
+//import { Button } from './button'
+import { TextEdit } from './textedit'
+import { CheckBox } from './checkbox'
+//import { Dialog } from './dialog'
+//import { VLayout } from './layout'
+import { Spreadsheet } from './spreadsheet'
+//import { FormButtons, FormBtn } from './form'
+//import { ComboBox, ComboBoxProps } from './combobox'
+//import { DataStore, DataView, Record } from './datastore'
+//import { isArray } from './tools'
+import { _tr } from './i18n'
 
 
 //@TODO: review all

@@ -17,16 +17,16 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Button } from "./button.js";
-import { Popup } from "./popup.js";
-import { Component, CProps, ContainerEventMap, Flex } from "./component.js"
-import { EvChange, EventCallback } from './x4_events.js'
+import { Button } from "./button";
+import { Popup } from "./popup";
+import { Component, CProps, ContainerEventMap, Flex } from "./component"
+import { EvChange, EventCallback } from './x4_events'
 
-import { _tr } from "./i18n.js";
-import { Label } from "./label.js";
-import { HLayout, VLayout } from "./layout.js"
-import { date_hash, date_clone, date_calc_weeknum, formatIntlDate } from './tools.js'
-import { Menu, MenuItem } from "./menu.js";
+import { _tr } from "./i18n";
+import { Label } from "./label";
+import { HLayout, VLayout } from "./layout"
+import { date_hash, date_clone, date_calc_weeknum, formatIntlDate } from './tools'
+import { Menu, MenuItem } from "./menu";
 
 
 interface CalendarEventMap extends ContainerEventMap {

@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps } from './component.js'
-import { Stylesheet } from './styles.js'
-import { HtmlString } from './tools.js';
-import { BasicEvent, EvChange, EventMap, EventSource } from './x4_events.js';
+import { Component, CProps } from './component'
+import { Stylesheet } from './styles'
+import { HtmlString } from './tools';
+import { BasicEvent, EvChange, EventMap, EventSource } from './x4_events';
 
 // ============================================================================
 // [ICON]

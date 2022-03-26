@@ -17,13 +17,13 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { CEventMap, Component, CProps } from './component.js'
-import { EvClick, EventCallback } from './x4_events.js'
+import { CEventMap, Component, CProps } from './component'
+import { EvClick, EventCallback } from './x4_events'
 
-import { Popup, PopupProps } from './popup.js'
-import { Icon, IconID } from './icon.js'
-import { Label } from './label.js'
-import { HLayout } from './layout.js'
+import { Popup, PopupProps } from './popup'
+import { Icon, IconID } from './icon'
+import { Label } from './label'
+import { HLayout } from './layout'
 
 // ============================================================================
 // [MENU]

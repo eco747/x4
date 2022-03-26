@@ -18,13 +18,13 @@
 **/
 
 
-import { Component, CProps, CEventMap, HtmlString } from './component.js'
-import { EventCallback, EvClick, EvChange } from './x4_events.js'
+import { Component, CProps, CEventMap, HtmlString } from './component'
+import { EventCallback, EvClick, EvChange } from './x4_events'
 
-import { Icon, IconID } from './icon.js'
-import { Label } from './label.js'
-import { Menu, MenuItem, MenuOrSep } from './menu.js'
-import { isFunction } from './tools.js'
+import { Icon, IconID } from './icon'
+import { Label } from './label'
+import { Menu, MenuItem, MenuOrSep } from './menu'
+import { isFunction } from './tools'
 
 /**
  * Button events

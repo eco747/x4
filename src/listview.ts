@@ -17,14 +17,14 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Container, Component, CProps, ContainerEventMap, EvDblClick } from './component.js'
-import { IconID } from './icon.js';
-import { HLayout, VLayout } from './layout.js'
-import { Popup, PopupEventMap, PopupProps } from './popup.js';
-import { HtmlString, isFunction } from './tools.js';
-import { Menu, MenuItem } from "./menu.js";
+import { Container, Component, CProps, ContainerEventMap, EvDblClick } from './component'
+import { IconID } from './icon';
+import { HLayout, VLayout } from './layout'
+import { Popup, PopupEventMap, PopupProps } from './popup';
+import { HtmlString, isFunction } from './tools';
+import { Menu, MenuItem } from "./menu";
 
-import { EvContextMenu, EvSelectionChange, EvClick, EventCallback, BasicEvent, EvChange } from "./x4_events.js";
+import { EvContextMenu, EvSelectionChange, EvClick, EventCallback, BasicEvent, EvChange } from "./x4_events";
 
 /**
  * item definition

@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { CProps, Component, ContainerEventMap } from './component.js'
-import { HLayout } from './layout.js';
-import { Input } from './input.js'
-import { EvChange, EventCallback } from './x4_events.js';
+import { CProps, Component, ContainerEventMap } from './component'
+import { HLayout } from './layout';
+import { Input } from './input'
+import { EvChange, EventCallback } from './x4_events';
 
 interface RatingEventMap extends ContainerEventMap {
 	change: EvChange;

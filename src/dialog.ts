@@ -17,14 +17,14 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Popup, PopupProps, PopupEventMap, EvMove } from './popup.js'
-import { Icon, IconID } from './icon.js'
-import { HLayout } from './layout.js'
-import { Label } from './label.js'
-import { Form, FormButtons } from './form.js'
-import { Component, EvSize, flyWrap } from './component.js'
-import { BasicEvent, EventCallback } from './x4_events.js'
-import { Rect, getMousePos, isFunction, isTouchDevice, isString } from './tools.js'
+import { Popup, PopupProps, PopupEventMap, EvMove } from './popup'
+import { Icon, IconID } from './icon'
+import { HLayout } from './layout'
+import { Label } from './label'
+import { Form, FormButtons } from './form'
+import { Component, EvSize, flyWrap } from './component'
+import { BasicEvent, EventCallback } from './x4_events'
+import { Rect, getMousePos, isFunction, isTouchDevice, isString } from './tools'
 
 interface Geometry {
 	left: number;

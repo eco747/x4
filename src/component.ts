@@ -23,14 +23,14 @@
  *		create Container class
  */
 
-import { pascalCase, Rect, isString, isArray, Size, Point, isNumber, asap, HtmlString, isHtmlString, Constructor, getMousePos } from './tools.js';
-import { Stylesheet, ComputedStyle } from './styles.js';
-import { _tr } from './i18n.js';
-import { BasicEvent, EventCallback } from './x4_events.js';
-import { BaseComponent, BaseComponentProps, BaseComponentEventMap } from './base_component.js';
-import { IDOMEvents, X4ElementEventMap } from './dom_events.js';
+import { pascalCase, Rect, isString, isArray, Size, Point, isNumber, asap, HtmlString, isHtmlString, Constructor, getMousePos } from './tools';
+import { Stylesheet, ComputedStyle } from './styles';
+import { _tr } from './i18n';
+import { BasicEvent, EventCallback } from './x4_events';
+import { BaseComponent, BaseComponentProps, BaseComponentEventMap } from './base_component';
+import { IDOMEvents, X4ElementEventMap } from './dom_events';
 
-export { HtmlString, isHtmlString, html } from './tools.js'
+export { HtmlString, isHtmlString, html } from './tools'
 
 export interface EventHandler<T> {
 	(ev: T): any;

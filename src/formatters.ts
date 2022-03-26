@@ -17,8 +17,8 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Application } from './application.js'
-import { formatIntlDate, roundTo } from './tools.js'
+import { Application } from './application'
+import { formatIntlDate, roundTo } from './tools'
 
 export type FormatFunc = (input: any, rec: any) => string;
 

@@ -17,16 +17,16 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, Container, CProps, ContainerEventMap, ComponentContent } from './component.js'
-import { HLayout, VLayout } from './layout.js'
-import { Button } from './button.js'
-import { Input } from './input.js'
-import { TextEdit } from './textedit.js'
-import { ajaxRequest, RequestProps } from './request.js'
-import { BasicEvent, EventCallback } from './x4_events.js'
-import { EvBtnClick } from './dialog.js'
+import { Component, Container, CProps, ContainerEventMap, ComponentContent } from './component'
+import { HLayout, VLayout } from './layout'
+import { Button } from './button'
+import { Input } from './input'
+import { TextEdit } from './textedit'
+import { ajaxRequest, RequestProps } from './request'
+import { BasicEvent, EventCallback } from './x4_events'
+import { EvBtnClick } from './dialog'
 
-import { _tr } from './i18n.js'
+import { _tr } from './i18n'
 
 // ============================================================================
 // [FORM]

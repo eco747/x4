@@ -17,7 +17,7 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Point, Rect, roundTo } from './tools.js'
+import { Point, Rect, roundTo } from './tools'
 
 // adapted & modified from Canvas-txt: 
 // https://github.com/geongeorge/Canvas-Txt/blob/master/src/index.js

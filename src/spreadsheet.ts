@@ -17,16 +17,16 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, SizerOverlay, EvDblClick, EvSize, ContainerEventMap, ContainerProps } from './component.js'
-import { Input, InputProps } from './input.js';
-import { HLayout, VLayout } from './layout.js';
-import { TextEditProps, TextEdit } from './textedit.js';
-import * as Formatters from './formatters.js';
-import { asap, parseIntlFloat } from './tools.js';
-import { Stylesheet } from './styles.js';
-import { deferCall } from './tools.js';
-import { EvContextMenu, EvChange, EvSelectionChange, EventCallback } from './x4_events.js'
-import { ComboBox } from './combobox.js';
+import { Component, CProps, SizerOverlay, EvDblClick, EvSize, ContainerEventMap, ContainerProps } from './component'
+import { Input, InputProps } from './input';
+import { HLayout, VLayout } from './layout';
+import { TextEditProps, TextEdit } from './textedit';
+import * as Formatters from './formatters';
+import { asap, parseIntlFloat } from './tools';
+//import { Stylesheet } from './styles';
+import { deferCall } from './tools';
+import { EvContextMenu, EvChange, EvSelectionChange, EventCallback } from './x4_events'
+import { ComboBox } from './combobox';
 
 
 export interface EditorFactory {

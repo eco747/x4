@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, Flex, CProps } from "./component.js";
-import { Icon, IconID } from './icon.js';
-import { Label } from "./label.js";
-import { Popup, PopupProps, PopupEventMap } from './popup.js';
+//import { Component, Flex, CProps } from "./component";
+import { Icon, IconID } from './icon';
+import { Label } from "./label";
+import { Popup, PopupProps, PopupEventMap } from './popup';
 
 
 export interface ToasterProps extends PopupProps {

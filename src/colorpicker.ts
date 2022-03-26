@@ -18,16 +18,16 @@
 **/
 
 
-import { Container, Component, CProps, ContainerProps, ContainerEventMap } from './component.js'
-import { CheckBox } from './checkbox.js'
-import { Dialog, DialogBoxEventMap, DialogProps } from './dialog.js'
-import { BasicEvent, EvChange, EvClick, EvContextMenu, EventCallback } from './x4_events.js'
-import { VLayout, HLayout } from './layout.js'
-import { Label } from './label.js'
-import { Color } from './color.js'
-import { isString, getMousePos, clamp, classNames } from './tools.js'
-import { TextEdit } from './textedit.js'
-import { Menu, MenuItem } from './menu.js'
+import { Container, Component, CProps, ContainerProps, ContainerEventMap } from './component'
+import { CheckBox } from './checkbox'
+import { Dialog, DialogBoxEventMap, DialogProps } from './dialog'
+import { BasicEvent, EvChange, EvClick, EvContextMenu, EventCallback } from './x4_events'
+import { VLayout, HLayout } from './layout'
+import { Label } from './label'
+import { Color } from './color'
+import { isString, getMousePos, clamp, classNames } from './tools'
+import { TextEdit } from './textedit'
+import { Menu, MenuItem } from './menu'
 
 interface ColorPickerEventMap extends ContainerEventMap {
 	change: EvChange;

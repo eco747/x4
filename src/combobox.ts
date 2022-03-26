@@ -21,16 +21,16 @@
  * TODO: replace custom combo list by listview or gridview
  */
 
-import { Component, CProps, CEventMap, ContainerEventMap } from './component.js'
-import { EvChange, EvSelectionChange, EventCallback } from './x4_events.js'
+import { Component, CProps, CEventMap, ContainerEventMap } from './component'
+import { EvChange, EvSelectionChange, EventCallback } from './x4_events'
 
-import { Input } from './input.js'
-import { Label } from './label.js'
-import { Button } from './button.js'
-import { HLayout, VLayout } from './layout.js'
-import { PopupListView, ListViewItem, PopulateItems, EvCancel } from './listview.js';
-import { DataStore, DataView, Record } from './datastore.js'
-import { isFunction, asap, HtmlString } from './tools.js'
+import { Input } from './input'
+import { Label } from './label'
+import { Button } from './button'
+import { HLayout, VLayout } from './layout'
+import { PopupListView, ListViewItem, PopulateItems, EvCancel } from './listview';
+import { DataStore, DataView, Record } from './datastore'
+import { isFunction, asap, HtmlString } from './tools'
 
 export interface ComboStoreProxyProps {
 	store: DataView | DataStore;

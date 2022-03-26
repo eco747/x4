@@ -17,12 +17,12 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, CEventMap } from './component.js'
-import { EvChange, EventCallback } from './x4_events.js'
+import { Component, CProps, CEventMap } from './component'
+import { EvChange, EventCallback } from './x4_events'
 
-import { IconID } from './icon.js';
-import { Input } from './input.js'
-import { Label } from './label.js'
+import { IconID } from './icon';
+import { Input } from './input'
+import { Label } from './label'
 
 // ============================================================================
 // [RADIOBTN]

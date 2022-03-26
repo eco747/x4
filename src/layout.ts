@@ -17,9 +17,9 @@
  *	You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>..
  */
 
-import { Component, CProps, ComponentContent, Container, ContainerProps, ContainerEventMap } from './component.js'
-import { } from './x4_events.js'
-import { isArray } from './tools.js';
+import { Component, CProps, ComponentContent, Container, ContainerProps, ContainerEventMap } from './component'
+import { } from './x4_events'
+import { isArray } from './tools';
 
 // ============================================================================
 // [ABSLAYOUT]

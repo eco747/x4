@@ -39,7 +39,7 @@ getToto( dump );
  */
 
 
-import { isArray, isLiteralObject, isString, NetworkError } from './tools.js'
+import { isArray, isLiteralObject, isString, NetworkError } from './tools'
 
 const DEFAULT_TIMEOUT = 10000;
 

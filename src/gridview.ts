@@ -25,15 +25,15 @@ const T_UPDATE = Symbol('update');
  */
 
 
-import { HLayout, VLayout } from './layout.js'
-import { Component, ContainerEventMap, EvSize, EvDblClick, CProps, flyWrap, html, HtmlString, SizerOverlay } from './component.js'
-import { Label } from './label.js'
-import { _tr } from './i18n.js'
-import * as Formatters from './formatters.js'
-import { downloadData } from './tools.js'
-import { DataView, DataStore, Record, EvViewChange } from './datastore.js'
+import { HLayout, VLayout } from './layout'
+import { Component, ContainerEventMap, EvSize, EvDblClick, CProps, flyWrap, html, HtmlString, SizerOverlay } from './component'
+import { Label } from './label'
+import { _tr } from './i18n'
+import * as Formatters from './formatters'
+import { downloadData } from './tools'
+import { DataView, DataStore, Record, EvViewChange } from './datastore'
 
-import { EvContextMenu, EvSelectionChange, BasicEvent, EventDisposer } from "./x4_events.js";
+import { EvContextMenu, EvSelectionChange, BasicEvent, EventDisposer } from "./x4_events";
 
 export interface EvGridCheck extends BasicEvent {
 	rec: Record;

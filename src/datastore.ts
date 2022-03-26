@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { ajaxRequest } from './request.js';
-import { isArray, isString } from './tools.js';
-import { BasicEvent, EvChange, EventSource, EventMap, MapEvents } from './x4_events.js';
-import { BaseComponent, BaseComponentEventMap, BaseComponentProps } from './base_component.js';
+import { ajaxRequest } from './request';
+import { isArray, isString } from './tools';
+import { BasicEvent, EvChange, EventSource, EventMap, MapEvents } from './x4_events';
+import { BaseComponent, BaseComponentEventMap, BaseComponentProps } from './base_component';
 
 export type ChangeCallback = (type: string, id?: any) => void;
 export type CalcCallback = () => string;

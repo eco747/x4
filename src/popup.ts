@@ -17,10 +17,10 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Container, CProps, flyWrap, SizerOverlay, EvOverlayResize, Component, ContainerEventMap, EvSize } from './component.js'
-import { Point, Size, getMousePos, asap } from './tools.js'
-import { BasicEvent } from './x4_events.js';
-import { Application } from './application.js';
+import { Container, CProps, flyWrap, SizerOverlay, EvOverlayResize, Component, ContainerEventMap, EvSize } from './component'
+import { Point, Size, getMousePos, asap } from './tools'
+import { BasicEvent } from './x4_events';
+import { Application } from './application';
 
 
 export interface EvMove extends BasicEvent {

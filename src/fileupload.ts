@@ -17,11 +17,11 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps } from './component.js'
+import { Component, CProps } from './component'
 
-import { HLayout } from './layout.js'
-import { Input } from './input.js'
-import { Image } from './image.js'
+import { HLayout } from './layout'
+import { Input } from './input'
+import { Image } from './image'
 
 // ============================================================================
 // [FILEUPLOAD]

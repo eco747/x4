@@ -17,12 +17,12 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { InputProps } from './input.js'
-import { TextEdit, TextEditProps } from './textedit.js'
-import { DataStore, DataView, Record } from './datastore.js'
-import { Popup, PopupProps, PopupEventMap } from './popup.js';
-import { Component, CProps, EvFocus } from './component.js';
-import { EvChange, EvClick } from './x4_events.js';
+//import { InputProps } from './input'
+import { TextEdit, TextEditProps } from './textedit'
+import { DataStore, DataView, Record } from './datastore'
+import { Popup, PopupProps, PopupEventMap } from './popup';
+import { Component, CProps, EvFocus } from './component';
+import { EvChange, EvClick } from './x4_events';
 
 type Renderer = (rec: Record) => CellData[];
 

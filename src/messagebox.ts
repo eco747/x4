@@ -17,14 +17,14 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Dialog, DialogProps, EvBtnClick } from './dialog.js'
-import { FormButtons, FormEventMap } from './form.js'
-import { asap, HtmlString, isHtmlString, isString } from './tools.js'
-import { HLayout } from './layout.js'
-import { Icon, IconID } from './icon.js'
-import { Label } from './label.js'
-import { TextEdit } from './textedit.js'
-import { EventCallback } from './x4_events.js'
+import { Dialog, DialogProps, EvBtnClick } from './dialog'
+import { FormButtons, FormEventMap } from './form'
+import { asap, HtmlString, isHtmlString, isString } from './tools'
+import { HLayout } from './layout'
+import { Icon, IconID } from './icon'
+import { Label } from './label'
+import { TextEdit } from './textedit'
+//import { EventCallback } from './x4_events'
 
 /**
  * [ MESSAGEBOX ] -----------------------------------------------------------------

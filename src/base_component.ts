@@ -1,4 +1,4 @@
-import { EventMap, MapEvents, EventSource, EvTimer } from './x4_events.js';
+import { EventMap, MapEvents, EventSource, EvTimer } from './x4_events';
 
 /**
  * Timer Callback

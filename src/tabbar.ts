@@ -6,10 +6,10 @@
 * @description Tab 
 **/
 
-import { Component, ContainerEventMap, CProps, EventHandler } from './component.js';
-import { HLayout } from './layout.js';
-import { Button } from './button.js';
-import { EvChange } from './x4_events.js';
+import { Component, ContainerEventMap, CProps, EventHandler } from './component';
+import { HLayout } from './layout';
+import { Button } from './button';
+import { EvChange } from './x4_events';
 
 interface TabBarEventMap extends ContainerEventMap {
 	change: EvChange;

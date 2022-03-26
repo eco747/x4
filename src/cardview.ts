@@ -17,11 +17,11 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, CEventMap } from './component.js'
-import { EvChange } from './x4_events.js'
+import { Component, CProps, CEventMap } from './component'
+import { EvChange } from './x4_events'
 
-import { IconID } from './icon.js'
-import { asap, isFunction } from './tools.js'
+import { IconID } from './icon'
+import { asap, isFunction } from './tools'
 
 export type PageOrCallback = Component | (() => Component);
 

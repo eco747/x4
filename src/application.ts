@@ -16,13 +16,13 @@
 *
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
-import { EvMessage } from './x4_events.js'
-import { BaseComponent, BaseComponentEventMap, BaseComponentProps } from './base_component.js'
-import { Component } from './component.js'
-import { DataStore } from './datastore.js'
-import { Settings } from './settings.js'
-import { deferCall, isArray } from './tools.js'
-import { _tr } from './i18n.js'
+import { EvMessage } from './x4_events'
+import { BaseComponent, BaseComponentEventMap, BaseComponentProps } from './base_component'
+import { Component } from './component'
+import { DataStore } from './datastore'
+import { Settings } from './settings'
+import { deferCall, isArray } from './tools'
+import { _tr } from './i18n'
 
 
 interface ApplicationEventMap extends BaseComponentEventMap {

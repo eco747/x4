@@ -17,18 +17,18 @@
 * You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 **/
 
-import { Component, CProps, EvFocus, HtmlString, ContainerEventMap } from './component.js'
-import { Input, InputProps, InputEventMap } from './input.js'
-import { IconID } from './icon.js'
-import { Button } from './button.js'
-import { HLayout, VLayout } from './layout.js'
-import { Label } from './label.js'
-import { PopupCalendar } from './calendar.js'
-import { sprintf, parseIntlDate, formatIntlDate } from "./tools.js";
-import { Tooltip } from './tooltips.js'
-import { EvClick, EvChange, EventCallback } from './x4_events.js';
+import { Component, CProps, EvFocus, HtmlString, ContainerEventMap } from './component'
+import { Input, InputProps, InputEventMap } from './input'
+import { IconID } from './icon'
+import { Button } from './button'
+import { HLayout, VLayout } from './layout'
+import { Label } from './label'
+import { PopupCalendar } from './calendar'
+import { sprintf, parseIntlDate, formatIntlDate } from "./tools";
+import { Tooltip } from './tooltips'
+import { EvClick, EvChange, EventCallback } from './x4_events';
 
-import { _tr } from './i18n.js'
+import { _tr } from './i18n'
 
 // throw in case of error
 // return the corrected
